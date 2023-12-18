@@ -1,0 +1,21 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Kelloggs25gFrosties_vray", "lightbright"]
+    def "Kelloggs25gFrosties_vray_1" (
+        active = true
+        prepend references = @Kelloggs25gFrosties_vray.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.03, 0.03, 0.03)
+        float3 xformOp:translate = (0, 1.2097257, -0.87717444)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+

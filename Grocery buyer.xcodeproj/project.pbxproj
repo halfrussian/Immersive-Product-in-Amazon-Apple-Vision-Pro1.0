@@ -14,6 +14,7 @@
 		426E08992B2945C900EF5EDB /* ResponsiveTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 426E08982B2945C900EF5EDB /* ResponsiveTextField */; };
 		426E089C2B29684000EF5EDB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E089B2B29684000EF5EDB /* CardView.swift */; };
 		42A112E62B27C95900ECE663 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A112E52B27C95900ECE663 /* ProductList.swift */; };
+		42A141712B2FBE2800711CA4 /* CenterAViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A141702B2FBE2800711CA4 /* CenterAViewTest.swift */; };
 		42BC86412B26E1E8006FA9FD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 42BC86402B26E1E8006FA9FD /* RealityKitContent */; };
 		42BC86432B26E1E8006FA9FD /* Grocery_buyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BC86422B26E1E8006FA9FD /* Grocery_buyerApp.swift */; };
 		42BC86452B26E1E8006FA9FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BC86442B26E1E8006FA9FD /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 		426E08952B282E9900EF5EDB /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		426E089B2B29684000EF5EDB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		42A112E52B27C95900ECE663 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		42A141702B2FBE2800711CA4 /* CenterAViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAViewTest.swift; sourceTree = "<group>"; };
 		42BC863B2B26E1E8006FA9FD /* Grocery buyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery buyer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BC863F2B26E1E8006FA9FD /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		42BC86422B26E1E8006FA9FD /* Grocery_buyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_buyerApp.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				4238E7772B29804600120D0D /* test.swift */,
 				4221B03E2B2A8DF400C70BE1 /* SignIn.swift */,
 				42DEA8D92B2A917C00B942C5 /* Nav.swift */,
+				42A141702B2FBE2800711CA4 /* CenterAViewTest.swift */,
 			);
 			path = "Grocery buyer";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				426E089C2B29684000EF5EDB /* CardView.swift in Sources */,
+				42A141712B2FBE2800711CA4 /* CenterAViewTest.swift in Sources */,
 				42BC86452B26E1E8006FA9FD /* ContentView.swift in Sources */,
 				42A112E62B27C95900ECE663 /* ProductList.swift in Sources */,
 				426E08962B282E9900EF5EDB /* ProductDetail.swift in Sources */,

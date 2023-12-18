@@ -11,6 +11,15 @@ import WrappingHStack
 import ResponsiveTextField
 
 struct test: View {
+    
+    @State private var showImmersiveSpace = false
+    @State private var immersiveSpaceIsShown = false
+
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+ 
+    
+    
     @State var push = false
     @State var product = false
     

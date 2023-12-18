@@ -13,12 +13,9 @@ struct Grocery_buyerApp: App {
         WindowGroup {
             test()
         }
-//        WindowGroup {
-//            ProductList()
-//        }
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
+        ImmersiveSpace(id: "detail") {
+            ProductDetail()
         }
     }
 }
