@@ -60,6 +60,15 @@
     "objectMetadataList" : [
       [
         "85B5AECD-D548-48B0-B5AA-77BD316881C1",
+        "Kelloggs25gFrosties_vray",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "85B5AECD-D548-48B0-B5AA-77BD316881C1",
         "Kelloggs25gFrosties_vray"
       ],
       {
@@ -69,15 +78,6 @@
       [
         "85B5AECD-D548-48B0-B5AA-77BD316881C1",
         "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "85B5AECD-D548-48B0-B5AA-77BD316881C1",
-        "Kelloggs25gFrosties_vray",
-        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -101,7 +101,8 @@
     "objectMetadataList" : [
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root"
+        "Root",
+        "_GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -109,8 +110,7 @@
       },
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "_GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,

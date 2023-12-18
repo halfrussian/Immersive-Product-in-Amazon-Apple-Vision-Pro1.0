@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct Grocery_buyerApp: App {
+    @State var product = false
     var body: some Scene {
         WindowGroup {
             test()
@@ -16,6 +17,9 @@ struct Grocery_buyerApp: App {
 
         ImmersiveSpace(id: "detail") {
             ProductDetail()
+        }
+        WindowGroup(id: "store") {
+            CardView(product: $product)
         }
     }
 }
